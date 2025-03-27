@@ -40,7 +40,9 @@ namespace WallBuilder
         }
         public void PrintWall()
         {
-            //  TODO: Wall is built bottom up, so it must be reversed when printing
+            //  Wall is built bottom up, so it must be reversed before printing
+            Console.WriteLine("The Wall:");
+            theWall.Reverse();
             foreach (string wall in theWall)
             {
                 Console.WriteLine(wall);
@@ -75,7 +77,7 @@ namespace WallBuilder
         }
         public string InvalidArguments()
         {
-            return "Invalid arguments!\nMust be e.g.: Program 20 10";
+            return "Invalid arguments!\nMust be e.g.: WallBuilder 20 10";
         }
     }
 }

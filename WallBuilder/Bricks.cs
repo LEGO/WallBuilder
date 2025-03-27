@@ -26,7 +26,8 @@ namespace WallBuilder
         }
         public void ShowBricks()
         {
-            Console.WriteLine("Largest brick is " + LargestBrick() + " wide");
+            Console.WriteLine("Largest brick is " + LargestBrick() + " knobs wide");
+            Console.WriteLine("The Bricks:");
             foreach (KeyValuePair<int,string> kvp in validBricks)
             {
                 Console.WriteLine("1x" + kvp.Key + " : " + kvp.Value);
@@ -35,12 +36,12 @@ namespace WallBuilder
         private KeyValuePair<int, string> GetRandomBrick(Random rnd, int maxSize)
         {
             int size = rnd.Next(1, maxSize);
-            Console.WriteLine("maxSize: " + maxSize + " size: " + size);
+            //Console.WriteLine("maxSize: " + maxSize + " size: " + size);
             for (int i = size; i > 0; i--)
             {
                 if (validBricks.ContainsKey(i))
                 {
-                    Console.WriteLine("Found > i: " + i + " validBricks[i]: " + validBricks[i]);
+                    //Console.WriteLine("Found > i: " + i + " validBricks[i]: " + validBricks[i]);
                     return new KeyValuePair<int, string>(i, validBricks[i]);
                 }
             }
@@ -58,7 +59,7 @@ namespace WallBuilder
             do
             {
                 row += GetRandomBrick(rnd, GetRndLimit(width, row.Length)).Value;
-                Console.WriteLine("row: " + row);
+                //Console.WriteLine("row: " + row);
             }
             while (row.Length < width);
             return row;
