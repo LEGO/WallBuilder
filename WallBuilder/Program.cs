@@ -1,16 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-//using WallBuilder;
-namespace WallBuilder
+﻿namespace WallBuilder
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("argument count: " + args.Length);
-            //foreach (string arg in args)
-            //{
-            //    Console.WriteLine("args: " + arg);
-            //}
             /*
              * Expected arguments:
              * 1. width (int)

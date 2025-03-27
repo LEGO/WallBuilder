@@ -33,7 +33,7 @@ namespace WallBuilder
                 Console.WriteLine("1x" + kvp.Key + " : " + kvp.Value);
             }
         }
-        private KeyValuePair<int, string> GetRandomBrick(Random rnd, int maxSize)
+        private string GetRandomBrick(Random rnd, int maxSize)
         {
             int size = rnd.Next(1, maxSize);
             //Console.WriteLine("maxSize: " + maxSize + " size: " + size);
@@ -42,23 +42,24 @@ namespace WallBuilder
                 if (validBricks.ContainsKey(i))
                 {
                     //Console.WriteLine("Found > i: " + i + " validBricks[i]: " + validBricks[i]);
-                    return new KeyValuePair<int, string>(i, validBricks[i]);
+                    string theBrick = validBricks[i];
+                    return theBrick;
                 }
             }
-            return validBricks.First();
+            return validBricks.First().Value;
         }
         private int GetRndLimit(int width, int rowLength)
         {
             return LargestBrick() < width - rowLength ? LargestBrick() : width - rowLength;
         }
         //  Return random row, without any rule
-        public string GetRow(int width)
+        public string BuildRow(int width)
         {
             string row = string.Empty;
             Random rnd = new Random();
             do
             {
-                row += GetRandomBrick(rnd, GetRndLimit(width, row.Length)).Value;
+                row += GetRandomBrick(rnd, GetRndLimit(width, row.Length));
                 //Console.WriteLine("row: " + row);
             }
             while (row.Length < width);

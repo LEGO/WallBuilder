@@ -14,7 +14,7 @@ namespace WallBuilder
         private const int maxHeight = 20;
         private static int theWidth;
         public static int theHeight;
-        public static string theRule;
+        public static string theRule = "";
         public void SetWidth(string value) { theWidth = int.Parse(value); }
         public void SetHeight(string value) { theHeight = int.Parse(value); }
         public int GetWidth() { return theWidth; }
@@ -30,6 +30,10 @@ namespace WallBuilder
         //  default method, build a wall without any rules
         public void BuildWall()
         {
+            if (GetRule().Length > 0)
+            {
+                Console.WriteLine(GetRule() + " to be implemented!");
+            }
             Bricks bricks = new Bricks();
             bricks.ShowBricks();
             if (theWall is null)
@@ -38,7 +42,7 @@ namespace WallBuilder
             }
             for (int row = 0; row < theHeight; row++)
             {
-                theWall.Add(bricks.GetRow(theWidth));
+                theWall.Add(bricks.BuildRow(theWidth));
             }
         }
         public void PrintWall()
