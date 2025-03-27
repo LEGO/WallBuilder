@@ -14,10 +14,13 @@ namespace WallBuilder
         private const int maxHeight = 20;
         private static int theWidth;
         public static int theHeight;
+        public static string theRule;
         public void SetWidth(string value) { theWidth = int.Parse(value); }
         public void SetHeight(string value) { theHeight = int.Parse(value); }
         public int GetWidth() { return theWidth; }
         public int GetHeight() { return theHeight; }
+        public void SetRule(string value) { theRule = value; }
+        public string GetRule() { return theRule; }
 
         private List<string> theWall;
         public Wall()
@@ -66,6 +69,11 @@ namespace WallBuilder
                 return value >= minHeight && value <= maxHeight;
             }
             return false;
+        }
+        public string ValidateRule(string rule)
+        {
+            string[] rules = { "interconnect", "addholes" };
+            return rules.Contains(rule) ? rule : "";
         }
         public string InvalidWidth()
         {

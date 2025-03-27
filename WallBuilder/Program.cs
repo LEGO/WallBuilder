@@ -43,6 +43,15 @@ namespace WallBuilder
             wall.SetHeight(args[1]);
             Console.WriteLine("theHeight: " + wall.GetHeight());
 
+            if (args.Length == 3)
+            {
+                wall.SetRule(args[2]);
+                if (wall.GetRule().Length > 0)
+                {
+                    Console.WriteLine("Using Rule: " + wall.GetRule());
+                }
+            }
+
             wall.BuildWall();
             wall.PrintWall();
         }
