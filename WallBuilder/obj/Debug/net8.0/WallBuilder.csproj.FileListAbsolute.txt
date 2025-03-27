@@ -1,0 +1,14 @@
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\bin\Debug\net8.0\WallBuilder.exe
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\bin\Debug\net8.0\WallBuilder.deps.json
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\bin\Debug\net8.0\WallBuilder.runtimeconfig.json
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\bin\Debug\net8.0\WallBuilder.dll
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\bin\Debug\net8.0\WallBuilder.pdb
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\WallBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\WallBuilder.AssemblyInfoInputs.cache
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\WallBuilder.AssemblyInfo.cs
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\WallBuilder.csproj.CoreCompileInputs.cache
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\WallBuilder.dll
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\refint\WallBuilder.dll
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\WallBuilder.pdb
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\WallBuilder.genruntimeconfig.cache
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\ref\WallBuilder.dll
