@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WallBuilder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2884f18f2ed8df283ee457b7ea135a1eaef6ebb")]
 [assembly: System.Reflection.AssemblyProductAttribute("WallBuilder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WallBuilder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

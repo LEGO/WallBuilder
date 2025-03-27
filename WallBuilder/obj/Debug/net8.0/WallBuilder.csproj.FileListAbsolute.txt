@@ -7,6 +7,7 @@ C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\WallBuil
 C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\WallBuilder.AssemblyInfoInputs.cache
 C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\WallBuilder.AssemblyInfo.cs
 C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\WallBuilder.csproj.CoreCompileInputs.cache
+C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\WallBuilder.sourcelink.json
 C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\WallBuilder.dll
 C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\refint\WallBuilder.dll
 C:\Users\dkAllCar\source\repos\WallBuilder\WallBuilder\obj\Debug\net8.0\WallBuilder.pdb
